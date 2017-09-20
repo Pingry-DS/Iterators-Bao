@@ -28,6 +28,7 @@ public class FibonacciIterator implements Iterator<Integer>
 	
 	public boolean hasNext()
 	{
+		//testing to see fibonacci numbers only up to 233
 		return n < 145;
 	}
 	
